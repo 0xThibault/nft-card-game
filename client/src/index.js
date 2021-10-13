@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import store from "./redux/store";
 import { Provider } from "react-redux";
+import "./styles/reset.css";
+import "./styles/theme.css";
 
 ReactDOM.render(
   // Means that the whole app from the root file will have access to all the redux state
